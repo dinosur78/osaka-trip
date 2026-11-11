@@ -19,13 +19,13 @@
       <div class="absolute -right-10 -bottom-10 opacity-10 text-9xl font-extrabold select-none">USJ</div>
       <div class="flex flex-wrap items-center justify-between gap-4 relative z-10">
         <div>
-          <span class="bg-amber-400 text-indigo-950 text-xs font-black px-3 py-1 rounded-full uppercase tracking-wider">Standard 맞춤 플랜</span>
+          <span class="bg-amber-400 text-indigo-950 text-xs font-black px-3 py-1 rounded-full uppercase tracking-wider">확정 맞춤 플랜</span>
           <h1 class="text-2xl md:text-3xl font-black mt-2 tracking-tight">오사카 USJ & 해리포터 2박 3일 가이드</h1>
-          <p class="text-indigo-200 text-xs md:text-sm mt-1">성인 3인 · 여유로운 속도 · 편안한 맛집 & 공항 지정석 이동</p>
+          <p class="text-indigo-200 text-xs md:text-sm mt-1">성인 3인 · 인천 출발 · 칸데오 난바(스파) · USJ 익스프레스 보유</p>
         </div>
         <div class="text-right bg-white/10 backdrop-blur-md p-3 rounded-2xl border border-white/20 text-xs">
-          <div class="text-amber-300 font-bold"><i class="fa-solid fa-calendar-days mr-1"></i> 2027.01.11(월) - 01.13(수)</div>
-          <div class="text-indigo-100 mt-0.5"><i class="fa-solid fa-user-group mr-1"></i> 성인 3명 (더블1+싱글1)</div>
+          <div class="text-amber-300 font-bold"><i class="fa-solid fa-calendar-days mr-1"></i> 2027.01.10(일) - 01.12(화)</div>
+          <div class="text-indigo-100 mt-0.5"><i class="fa-solid fa-plane-departure mr-1"></i> 인천(ICN) ↔ 간사이(KIX)</div>
         </div>
       </div>
     </div>
@@ -33,351 +33,92 @@
     <!-- Quick Overview Stats -->
     <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
       <div class="bg-white p-4 rounded-2xl shadow-sm border border-slate-200 text-center">
-        <div class="text-xs text-slate-500 font-semibold mb-1"><i class="fa-solid fa-hotel text-indigo-500 mr-1"></i> 거점 / 숙소</div>
-        <div class="text-sm font-bold text-slate-900">난바 / USJ 직결</div>
-        <div class="text-[11px] text-slate-500">더블1 + 싱글1 침대</div>
+        <div class="text-xs text-slate-500 font-semibold mb-1"><i class="fa-solid fa-hotel text-indigo-500 mr-1"></i> 확정 숙소</div>
+        <div class="text-sm font-bold text-slate-900">칸데오 오사카 난바</div>
+        <div class="text-[11px] text-amber-600 font-semibold">최상층 스카이스파 포함</div>
       </div>
       <div class="bg-white p-4 rounded-2xl shadow-sm border border-slate-200 text-center">
-        <div class="text-xs text-slate-500 font-semibold mb-1"><i class="fa-solid fa-plane text-indigo-500 mr-1"></i> 공항 이동</div>
-        <div class="text-sm font-bold text-slate-900">라피트(Rapi:t)</div>
-        <div class="text-[11px] text-slate-500">전좌석 지정석 특급열차</div>
+        <div class="text-xs text-slate-500 font-semibold mb-1"><i class="fa-solid fa-plane text-indigo-500 mr-1"></i> 비행 시간</div>
+        <div class="text-sm font-bold text-slate-900">출 10:35 / 귀 11:45</div>
+        <div class="text-[11px] text-slate-500">인천공항 왕복</div>
       </div>
       <div class="bg-white p-4 rounded-2xl shadow-sm border border-slate-200 text-center">
-        <div class="text-xs text-slate-500 font-semibold mb-1"><i class="fa-solid fa-hat-wizard text-indigo-500 mr-1"></i> USJ 전략</div>
-        <div class="text-sm font-bold text-slate-900">1일권 오픈런</div>
-        <div class="text-[11px] text-slate-500">해리포터 위저딩 월드</div>
+        <div class="text-xs text-slate-500 font-semibold mb-1"><i class="fa-solid fa-wand-magic-sparkles text-indigo-500 mr-1"></i> USJ 패스</div>
+        <div class="text-sm font-bold text-slate-900">입장권 + 익스프레스</div>
+        <div class="text-[11px] text-emerald-600 font-semibold">대기 최소화 완벽 확정</div>
       </div>
       <div class="bg-white p-4 rounded-2xl shadow-sm border border-slate-200 text-center">
-        <div class="text-xs text-slate-500 font-semibold mb-1"><i class="fa-solid fa-wallet text-indigo-500 mr-1"></i> 예상 경비</div>
-        <div class="text-sm font-bold text-slate-900">인당 70~90만원</div>
-        <div class="text-[11px] text-slate-500">Standard 밸런스형</div>
+        <div class="text-xs text-slate-500 font-semibold mb-1"><i class="fa-solid fa-passport text-emerald-600 mr-1"></i> 여권 상태</div>
+        <div class="text-sm font-bold text-slate-900">유효기간 이상 없음</div>
+        <div class="text-[11px] text-emerald-600 font-semibold">전원 준비 완료 ✅</div>
       </div>
     </div>
 
-    <!-- Airport to Hotel Transit Routes (Google Maps Directions) -->
+    <!-- Airport to Hotel Transit Route (Google Maps Directions for Candeo Hotel) -->
     <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 space-y-4">
       <h2 class="text-lg font-bold text-slate-900 flex items-center border-b pb-3 border-slate-100">
-        <i class="fa-solid fa-map-location-dot text-indigo-600 mr-2"></i> 간사이 공항 ➔ 후보 호텔별 이동 경로 (Google Maps 내비게이션)
+        <i class="fa-solid fa-map-location-dot text-indigo-600 mr-2"></i> 간사이 공항 ⇄ 칸데오 호텔 오사카 난바 (라피트 전용 이동 경로)
       </h2>
       <p class="text-xs md:text-sm text-slate-600 leading-relaxed">
-        김포공항 출발 ➔ 간사이공항(KIX) 도착 후 각 호텔까지 이동하는 대중교통 및 택시 전체 이동 선 경로 링크입니다.
+        공항 ⇄ 숙소 간 이동은 전 구간 <strong>난카이 라피트(Rapi:t) 특급열차</strong>로 편안하고 신속하게 이동합니다.
       </p>
 
-      <!-- Candeo Hotels Section -->
-      <div class="space-y-3 pt-1">
-        <h3 class="font-bold text-slate-800 text-sm flex items-center">
-          <span class="w-2 h-2 bg-amber-500 rounded-full mr-2"></span> [CANDEO HOTELS 오사카 난바] 이동 수단별 구글맵 길찾기
-        </h3>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
-          <!-- Route 1 -->
-          <div class="bg-slate-50 p-3 rounded-xl border border-slate-200 flex flex-col justify-between">
-            <div>
-              <div class="font-bold text-indigo-700 mb-1">🚆 1. 라피트 + 난바 도보 (추천)</div>
-              <p class="text-slate-600">간사이공항 → 라피트(38분) → 난카이 난바역 하차 → 도톤보리 구경하며 도보 10분</p>
-            </div>
-            <a href="https://www.google.com/maps/dir/?api=1&origin=Kansai+International+Airport&destination=CANDEO+HOTELS+Osaka+Namba&travelmode=transit" target="_blank" class="mt-3 inline-flex items-center justify-center space-x-1 bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-1.5 px-3 rounded-lg text-center transition">
-              <i class="fa-solid fa-route mr-1"></i> 전체 경로 지도 보기
-            </a>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
+        <!-- Route 1: Airport to Hotel -->
+        <div class="bg-indigo-50/50 p-4 rounded-xl border border-indigo-100 flex flex-col justify-between space-y-3">
+          <div>
+            <div class="font-bold text-indigo-900 mb-1">🛬 1일차: 간사이 공항 ➔ 호텔 (라피트 이용)</div>
+            <p class="text-slate-600">간사이공항역 → 라피트 지정석(38분) → 난카이 난바역 하차 → 도톤보리 지나 도보 10~12분</p>
           </div>
-          <!-- Route 2 -->
-          <div class="bg-slate-50 p-3 rounded-xl border border-slate-200 flex flex-col justify-between">
-            <div>
-              <div class="font-bold text-emerald-700 mb-1">🚌 2. 공항 리무진 버스</div>
-              <p class="text-slate-600">간사이공항 → 리무진 버스 → 난바 OCAT 하차 → 도보 15분</p>
-            </div>
-            <a href="https://www.google.com/maps/dir/?api=1&origin=Kansai+International+Airport&destination=CANDEO+HOTELS+Osaka+Namba&waypoints=OCAT&travelmode=transit" target="_blank" class="mt-3 inline-flex items-center justify-center space-x-1 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-1.5 px-3 rounded-lg text-center transition">
-              <i class="fa-solid fa-bus mr-1"></i> 전체 경로 지도 보기
-            </a>
-          </div>
-          <!-- Route 3 -->
-          <div class="bg-slate-50 p-3 rounded-xl border border-slate-200 flex flex-col justify-between">
-            <div>
-              <div class="font-bold text-amber-700 mb-1">🚕 3. 택시/차량 직행</div>
-              <p class="text-slate-600">간사이공항 → 한신고속도로 → 호텔 정문 도착 (약 45~50분)</p>
-            </div>
-            <a href="https://www.google.com/maps/dir/?api=1&origin=Kansai+International+Airport&destination=CANDEO+HOTELS+Osaka+Namba&travelmode=driving" target="_blank" class="mt-3 inline-flex items-center justify-center space-x-1 bg-amber-600 hover:bg-amber-700 text-white font-bold py-1.5 px-3 rounded-lg text-center transition">
-              <i class="fa-solid fa-taxi mr-1"></i> 전체 경로 지도 보기
-            </a>
-          </div>
+          <a href="https://www.google.com/maps/dir/?api=1&origin=Kansai+International+Airport&destination=CANDEO+HOTELS+Osaka+Namba&travelmode=transit" target="_blank" class="inline-flex items-center justify-center space-x-1 bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-1.5 px-3 rounded-lg text-center transition">
+            <i class="fa-solid fa-route mr-1"></i> 공항 ➔ 호텔 경로 지도 보기
+          </a>
         </div>
-      </div>
-
-      <!-- Hotel Legalie Section -->
-      <div class="space-y-3 pt-2">
-        <h3 class="font-bold text-slate-800 text-sm flex items-center">
-          <span class="w-2 h-2 bg-blue-500 rounded-full mr-2"></span> [HOTEL LEGALIE 닛폰바시 사우스] 이동 수단별 구글맵 길찾기
-        </h3>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
-          <!-- Route 1 -->
-          <div class="bg-slate-50 p-3 rounded-xl border border-slate-200 flex flex-col justify-between">
-            <div>
-              <div class="font-bold text-indigo-700 mb-1">🚇 1. 텐가차야 환승 (최단)</div>
-              <p class="text-slate-600">라피트 → 텐가차야역 환승 → 에비스초역(하차) → 도보 1분</p>
-            </div>
-            <a href="https://www.google.com/maps/dir/?api=1&origin=Kansai+International+Airport&destination=HOTEL+LEGALIE+Osaka+Nipponbashi+South&waypoints=Ebisucho+Station&travelmode=transit" target="_blank" class="mt-3 inline-flex items-center justify-center space-x-1 bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-1.5 px-3 rounded-lg text-center transition">
-              <i class="fa-solid fa-route mr-1"></i> 전체 경로 지도 보기
-            </a>
+        <!-- Route 2: Hotel to Airport -->
+        <div class="bg-emerald-50/50 p-4 rounded-xl border border-emerald-100 flex flex-col justify-between space-y-3">
+          <div>
+            <div class="font-bold text-emerald-900 mb-1">🛫 3일차: 호텔 ➔ 간사이 공항 (라피트 이용)</div>
+            <p class="text-slate-600">난바역 도보 이동 → 라피트 특급열차 탑승(38분) → 간사이 공항역 도착</p>
           </div>
-          <!-- Route 2 -->
-          <div class="bg-slate-50 p-3 rounded-xl border border-slate-200 flex flex-col justify-between">
-            <div>
-              <div class="font-bold text-teal-700 mb-1">🚆 2. 라피트 + 난바 도보</div>
-              <p class="text-slate-600">라피트 → 난카이 난바역(하차) → 덴덴타운 방향 도보 13분</p>
-            </div>
-            <a href="https://www.google.com/maps/dir/?api=1&origin=Kansai+International+Airport&destination=HOTEL+LEGALIE+Osaka+Nipponbashi+South&travelmode=transit" target="_blank" class="mt-3 inline-flex items-center justify-center space-x-1 bg-teal-600 hover:bg-teal-700 text-white font-bold py-1.5 px-3 rounded-lg text-center transition">
-              <i class="fa-solid fa-person-walking-luggage mr-1"></i> 전체 경로 지도 보기
-            </a>
-          </div>
-          <!-- Route 3 -->
-          <div class="bg-slate-50 p-3 rounded-xl border border-slate-200 flex flex-col justify-between">
-            <div>
-              <div class="font-bold text-amber-700 mb-1">🚕 3. 택시/차량 직행</div>
-              <p class="text-slate-600">간사이공항 → 한신고속도로 → 숙소 바로 앞 도착 (약 45분)</p>
-            </div>
-            <a href="https://www.google.com/maps/dir/?api=1&origin=Kansai+International+Airport&destination=HOTEL+LEGALIE+Osaka+Nipponbashi+South&travelmode=driving" target="_blank" class="mt-3 inline-flex items-center justify-center space-x-1 bg-amber-600 hover:bg-amber-700 text-white font-bold py-1.5 px-3 rounded-lg text-center transition">
-              <i class="fa-solid fa-taxi mr-1"></i> 전체 경로 지도 보기
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <!-- The Singulari Hotel Section -->
-      <div class="space-y-3 pt-2">
-        <h3 class="font-bold text-slate-800 text-sm flex items-center">
-          <span class="w-2 h-2 bg-purple-500 rounded-full mr-2"></span> [더 싱귤러리 호텔 & 스카이스파 (USJ 직결)] 이동 수단별 구글맵 길찾기
-        </h3>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
-          <!-- Route 1 -->
-          <div class="bg-slate-50 p-3 rounded-xl border border-slate-200 flex flex-col justify-between">
-            <div>
-              <div class="font-bold text-indigo-700 mb-1">🚆 1. 라피트 + JR 환승 (추천)</div>
-              <p class="text-slate-600">간사이공항 → 난카이 난바역 → 신이마미야역(JR 환승) → 유니버설시티역</p>
-            </div>
-            <a href="https://www.google.com/maps/dir/?api=1&origin=Kansai+International+Airport&destination=The+Singulari+Hotel+%26+Skyspa+at+Universal+Studios+Japan&travelmode=transit" target="_blank" class="mt-3 inline-flex items-center justify-center space-x-1 bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-1.5 px-3 rounded-lg text-center transition">
-              <i class="fa-solid fa-route mr-1"></i> 전체 경로 지도 보기
-            </a>
-          </div>
-          <!-- Route 2 -->
-          <div class="bg-slate-50 p-3 rounded-xl border border-slate-200 flex flex-col justify-between">
-            <div>
-              <div class="font-bold text-emerald-700 mb-1">🚌 2. 공항 리무진 버스 (직행)</div>
-              <p class="text-slate-600">간사이공항 ➔ USJ행 리무진 버스 (환승 없이 직행) ➔ 호텔 도보 2분</p>
-            </div>
-            <a href="https://www.google.com/maps/dir/?api=1&origin=Kansai+International+Airport&destination=The+Singulari+Hotel+%26+Skyspa+at+Universal+Studios+Japan&waypoints=Universal+Studios+Japan&travelmode=transit" target="_blank" class="mt-3 inline-flex items-center justify-center space-x-1 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-1.5 px-3 rounded-lg text-center transition">
-              <i class="fa-solid fa-bus mr-1"></i> 전체 경로 지도 보기
-            </a>
-          </div>
-          <!-- Route 3 -->
-          <div class="bg-slate-50 p-3 rounded-xl border border-slate-200 flex flex-col justify-between">
-            <div>
-              <div class="font-bold text-amber-700 mb-1">🚕 3. 택시/차량 직행</div>
-              <p class="text-slate-600">간사이공항 → 한신고속도로 → 호텔 로비 정문 직행 (약 40~45분)</p>
-            </div>
-            <a href="https://www.google.com/maps/dir/?api=1&origin=Kansai+International+Airport&destination=The+Singulari+Hotel+%26+Skyspa+at+Universal+Studios+Japan&travelmode=driving" target="_blank" class="mt-3 inline-flex items-center justify-center space-x-1 bg-amber-600 hover:bg-amber-700 text-white font-bold py-1.5 px-3 rounded-lg text-center transition">
-              <i class="fa-solid fa-taxi mr-1"></i> 전체 경로 지도 보기
-            </a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- Hotel to Universal Studios Japan (USJ) Navigation Guide -->
-    <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 space-y-4">
-      <h2 class="text-lg font-bold text-slate-900 flex items-center border-b pb-3 border-slate-100">
-        <i class="fa-solid fa-ticket text-red-500 mr-2"></i> 각 호텔 ➔ 유니버설 스튜디오 재팬(USJ) 이동 경로 (Google Maps)
-      </h2>
-      
-      <!-- Candeo Hotels to USJ -->
-      <div class="space-y-3">
-        <h3 class="font-bold text-slate-800 text-sm flex items-center">
-          <span class="w-2 h-2 bg-amber-500 rounded-full mr-2"></span> [칸데오 호텔 오사카 난바] ➔ USJ
-        </h3>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
-          <div class="bg-slate-50 p-3 rounded-xl border border-slate-200 flex flex-col justify-between">
-            <div>
-              <div class="font-bold text-indigo-700 mb-1">🚆 1. 한신선 + JR 환승 (추천)</div>
-              <p class="text-slate-600">도보 8분 → 오사카난바역(한신선) → 니시쿠조역(JR 환승) → 유니버설시티역 (약 35분)</p>
-            </div>
-            <a href="https://www.google.com/maps/dir/?api=1&origin=CANDEO+HOTELS+Osaka+Namba&destination=Universal+Studios+Japan&travelmode=transit" target="_blank" class="mt-3 inline-flex items-center justify-center space-x-1 bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-1.5 px-3 rounded-lg text-center transition">
-              <i class="fa-solid fa-route mr-1"></i> USJ 경로 지도 보기
-            </a>
-          </div>
-          <div class="bg-slate-50 p-3 rounded-xl border border-slate-200 flex flex-col justify-between">
-            <div>
-              <div class="font-bold text-emerald-700 mb-1">🚇 2. 지하철 + JR 환승</div>
-              <p class="text-slate-600">신사이바시역(메트로) → 우메다/오사카역(JR 환승) → 유니버설시티역 (약 40분)</p>
-            </div>
-            <a href="https://www.google.com/maps/dir/?api=1&origin=CANDEO+HOTELS+Osaka+Namba&destination=Universal+Studios+Japan&waypoints=Osaka+Station&travelmode=transit" target="_blank" class="mt-3 inline-flex items-center justify-center space-x-1 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-1.5 px-3 rounded-lg text-center transition">
-              <i class="fa-solid fa-train-subway mr-1"></i> USJ 경로 지도 보기
-            </a>
-          </div>
-          <div class="bg-slate-50 p-3 rounded-xl border border-slate-200 flex flex-col justify-between">
-            <div>
-              <div class="font-bold text-amber-700 mb-1">🚕 3. 택시 이동</div>
-              <p class="text-slate-600">호텔 정문 → 한신고속도로 → USJ 정문 직행 (약 20~25분 / 약 4,500~5,500엔)</p>
-            </div>
-            <a href="https://www.google.com/maps/dir/?api=1&origin=CANDEO+HOTELS+Osaka+Namba&destination=Universal+Studios+Japan&travelmode=driving" target="_blank" class="mt-3 inline-flex items-center justify-center space-x-1 bg-amber-600 hover:bg-amber-700 text-white font-bold py-1.5 px-3 rounded-lg text-center transition">
-              <i class="fa-solid fa-taxi mr-1"></i> USJ 경로 지도 보기
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Hotel Legalie to USJ -->
-      <div class="space-y-3 pt-2">
-        <h3 class="font-bold text-slate-800 text-sm flex items-center">
-          <span class="w-2 h-2 bg-blue-500 rounded-full mr-2"></span> [HOTEL LEGALIE 닛폰바시 사우스] ➔ USJ
-        </h3>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
-          <div class="bg-slate-50 p-3 rounded-xl border border-slate-200 flex flex-col justify-between">
-            <div>
-              <div class="font-bold text-indigo-700 mb-1">🚆 1. 난바역 이동 + JR 환승 (추천)</div>
-              <p class="text-slate-600">에비스초역/도보 → 난바역(한신선) → 니시쿠조역(JR 환승) → 유니버설시티역 (약 38분)</p>
-            </div>
-            <a href="https://www.google.com/maps/dir/?api=1&origin=HOTEL+LEGALIE+Osaka+Nipponbashi+South&destination=Universal+Studios+Japan&travelmode=transit" target="_blank" class="mt-3 inline-flex items-center justify-center space-x-1 bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-1.5 px-3 rounded-lg text-center transition">
-              <i class="fa-solid fa-route mr-1"></i> USJ 경로 지도 보기
-            </a>
-          </div>
-          <div class="bg-slate-50 p-3 rounded-xl border border-slate-200 flex flex-col justify-between">
-            <div>
-              <div class="font-bold text-purple-700 mb-1">🚇 2. 지하철 2회 환승</div>
-              <p class="text-slate-600">에비스초역 → 혼마치 환승 → 우메다/오사카역(JR 환승) → 유니버설시티역 (약 42분)</p>
-            </div>
-            <a href="https://www.google.com/maps/dir/?api=1&origin=HOTEL+LEGALIE+Osaka+Nipponbashi+South&destination=Universal+Studios+Japan&waypoints=Hommachi+Station&travelmode=transit" target="_blank" class="mt-3 inline-flex items-center justify-center space-x-1 bg-purple-600 hover:bg-purple-700 text-white font-bold py-1.5 px-3 rounded-lg text-center transition">
-              <i class="fa-solid fa-train-subway mr-1"></i> USJ 경로 지도 보기
-            </a>
-          </div>
-          <div class="bg-slate-50 p-3 rounded-xl border border-slate-200 flex flex-col justify-between">
-            <div>
-              <div class="font-bold text-amber-700 mb-1">🚕 3. 택시 이동</div>
-              <p class="text-slate-600">숙소 앞 → 한신고속도로 → USJ 정문 직행 (약 20~25분 / 약 5,000~6,000엔)</p>
-            </div>
-            <a href="https://www.google.com/maps/dir/?api=1&origin=HOTEL+LEGALIE+Osaka+Nipponbashi+South&destination=Universal+Studios+Japan&travelmode=driving" target="_blank" class="mt-3 inline-flex items-center justify-center space-x-1 bg-amber-600 hover:bg-amber-700 text-white font-bold py-1.5 px-3 rounded-lg text-center transition">
-              <i class="fa-solid fa-taxi mr-1"></i> USJ 경로 지도 보기
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <!-- The Singulari Hotel to USJ -->
-      <div class="space-y-3 pt-2">
-        <h3 class="font-bold text-slate-800 text-sm flex items-center">
-          <span class="w-2 h-2 bg-purple-500 rounded-full mr-2"></span> [더 싱귤러리 호텔 & 스카이스파] ➔ USJ
-        </h3>
-        <div class="bg-purple-50 border border-purple-200 p-4 rounded-xl flex items-center justify-between text-xs md:text-sm">
-          <div class="flex items-center space-x-3">
-            <div class="w-10 h-10 bg-purple-600 text-white rounded-full flex items-center justify-center text-lg font-bold">
-              <i class="fa-solid fa-person-walking"></i>
-            </div>
-            <div>
-              <div class="font-bold text-purple-950 text-sm">🚶‍♂️ 도보 2분 직행 (교통 수단 불필요)</div>
-              <p class="text-purple-800 text-xs">호텔 엘리베이터 이동 후 1층 출구 ➔ USJ 메인 게이트 도착 (약 150m)</p>
-            </div>
-          </div>
-          <a href="https://www.google.com/maps/dir/?api=1&origin=The+Singulari+Hotel+%26+Skyspa+at+Universal+Studios+Japan&destination=Universal+Studios+Japan&travelmode=walking" target="_blank" class="bg-purple-700 hover:bg-purple-800 text-white font-bold py-2 px-4 rounded-lg shrink-0 transition text-xs">
-            <i class="fa-solid fa-map-pin mr-1"></i> 도보 지도 보기
+          <a href="https://www.google.com/maps/dir/?api=1&origin=CANDEO+HOTELS+Osaka+Namba&destination=Kansai+International+Airport&travelmode=transit" target="_blank" class="inline-flex items-center justify-center space-x-1 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-1.5 px-3 rounded-lg text-center transition">
+            <i class="fa-solid fa-route mr-1"></i> 호텔 ➔ 공항 경로 지도 보기
           </a>
         </div>
       </div>
-
     </div>
 
-    <!-- Hotel Comparison Section (3 Hotels) -->
+    <!-- Candeo Hotel to USJ Navigation Guide -->
     <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 space-y-4">
       <h2 class="text-lg font-bold text-slate-900 flex items-center border-b pb-3 border-slate-100">
-        <i class="fa-solid fa-hotel text-indigo-600 mr-2"></i> 성인 3인 추천 숙소 3곳 최종 비교 (Hotel Comparison)
+        <i class="fa-solid fa-ticket text-red-500 mr-2"></i> 칸데오 호텔 오사카 난바 ➔ 유니버설 스튜디오 재팬(USJ) 이동 경로
       </h2>
-      <p class="text-xs md:text-sm text-slate-600 leading-relaxed">
-        성인 3인이 투숙 가능한 오사카 난바 및 USJ 직결 대표 호텔 3곳의 객실 구조, 부대시설, 위치 특성 비교입니다.
-      </p>
-
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs md:text-sm mt-3">
-        <!-- Hotel 1: LEGALIE -->
-        <div class="bg-slate-50 border border-slate-200 rounded-xl p-4 space-y-3 relative overflow-hidden flex flex-col justify-between">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
+        <div class="bg-slate-50 p-3 rounded-xl border border-slate-200 flex flex-col justify-between">
           <div>
-            <div class="absolute top-0 right-0 bg-blue-600 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg">3성급 / 아파트형</div>
-            <div class="font-bold text-base text-slate-900 flex items-center pr-12">
-              <i class="fa-solid fa-building-user text-blue-600 mr-2"></i> LEGALIE 닛폰바시
-            </div>
-            <div class="space-y-1.5 text-slate-600 mt-2">
-              <p><strong>• 방 크기:</strong> <strong>매우 넓음 (25~33㎡)</strong></p>
-              <p><strong>• 침대:</strong> 더블1+싱글1 (3인 여유)</p>
-              <p><strong>• 객실 특성:</strong> 세탁기, 주방, 건조기</p>
-              <p><strong>• 부대시설:</strong> 없음 (무인 체크인)</p>
-              <p><strong>• USJ 이동:</strong> 대중교통 38분</p>
-              <p><strong>• 추천:</strong> 넓은 공간 & 가성비</p>
-            </div>
+            <div class="font-bold text-indigo-700 mb-1">🚆 1. 한신선 + JR 환승 (추천)</div>
+            <p class="text-slate-600">도보 8분 → 오사카난바역(한신선) → 니시쿠조역(JR 환승) → 유니버설시티역 (약 35분)</p>
           </div>
+          <a href="https://www.google.com/maps/dir/?api=1&origin=CANDEO+HOTELS+Osaka+Namba&destination=Universal+Studios+Japan&travelmode=transit" target="_blank" class="mt-3 inline-flex items-center justify-center space-x-1 bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-1.5 px-3 rounded-lg text-center transition">
+            <i class="fa-solid fa-route mr-1"></i> USJ 경로 지도 보기
+          </a>
         </div>
-
-        <!-- Hotel 2: CANDEO -->
-        <div class="bg-slate-50 border border-slate-200 rounded-xl p-4 space-y-3 relative overflow-hidden flex flex-col justify-between">
+        <div class="bg-slate-50 p-3 rounded-xl border border-slate-200 flex flex-col justify-between">
           <div>
-            <div class="absolute top-0 right-0 bg-amber-500 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg">4성급 / 대욕장 호텔</div>
-            <div class="font-bold text-base text-slate-900 flex items-center pr-12">
-              <i class="fa-solid fa-hot-tub-person text-amber-600 mr-2"></i> CANDEO 오사카 난바
-            </div>
-            <div class="space-y-1.5 text-slate-600 mt-2">
-              <p><strong>• 방 크기:</strong> 보통 (18~20㎡)</p>
-              <p><strong>• 침대:</strong> 트윈+소파베드 (다소 타이트)</p>
-              <p><strong>• 위치:</strong> 도톤보리 도보 5분</p>
-              <p><strong>• 부대시설:</strong> <strong>루프탑 스카이스파</strong></p>
-              <p><strong>• USJ 이동:</strong> 대중교통 35분</p>
-              <p><strong>• 추천:</strong> 밤 시내 관광 & 온천 피로 회복</p>
-            </div>
+            <div class="font-bold text-emerald-700 mb-1">🚇 2. 지하철 + JR 환승</div>
+            <p class="text-slate-600">신사이바시역(메트로) → 우메다/오사카역(JR 환승) → 유니버설시티역 (약 40분)</p>
           </div>
+          <a href="https://www.google.com/maps/dir/?api=1&origin=CANDEO+HOTELS+Osaka+Namba&destination=Universal+Studios+Japan&waypoints=Osaka+Station&travelmode=transit" target="_blank" class="mt-3 inline-flex items-center justify-center space-x-1 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-1.5 px-3 rounded-lg text-center transition">
+            <i class="fa-solid fa-train-subway mr-1"></i> USJ 경로 지도 보기
+          </a>
         </div>
-
-        <!-- Hotel 3: SINGULARI -->
-        <div class="bg-slate-50 border border-purple-300 rounded-xl p-4 space-y-3 relative overflow-hidden flex flex-col justify-between bg-purple-50/40">
+        <div class="bg-slate-50 p-3 rounded-xl border border-slate-200 flex flex-col justify-between">
           <div>
-            <div class="absolute top-0 right-0 bg-purple-600 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg">4성급 / USJ 공식제휴</div>
-            <div class="font-bold text-base text-slate-900 flex items-center pr-12">
-              <i class="fa-solid fa-wand-magic-sparkles text-purple-600 mr-2"></i> 더 싱귤러리 (USJ 직결)
-            </div>
-            <div class="space-y-1.5 text-slate-600 mt-2">
-              <p><strong>• 방 크기:</strong> 쾌적 (20~24㎡ 이상)</p>
-              <p><strong>• 침대:</strong> 3인 트윈/소파 세팅</p>
-              <p><strong>• 위치:</strong> <strong>JR 유니버설시티역 직결</strong></p>
-              <p><strong>• 부대시설:</strong> <strong>워터프론트 스카이스파</strong></p>
-              <p><strong>• USJ 이동:</strong> <strong>도보 2분 (최고의 편의)</strong></p>
-              <p><strong>• 추천:</strong> USJ 올인 및 완벽한 체력 보존</p>
-            </div>
+            <div class="font-bold text-amber-700 mb-1">🚕 3. 택시 이동</div>
+            <p class="text-slate-600">호텔 정문 → 한신고속도로 → USJ 정문 직행 (약 20~25분 / 체력 보존 최적)</p>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Recommended Spots & Dining Section -->
-    <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 space-y-4">
-      <h2 class="text-lg font-bold text-slate-900 flex items-center border-b pb-3 border-slate-100">
-        <i class="fa-solid fa-utensils text-indigo-600 mr-2"></i> 여유 동선 추천 스팟 & 웨이팅 적은 맛집 (Dining Strategy)
-      </h2>
-      
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs md:text-sm">
-        <!-- Relaxed Attractions -->
-        <div class="bg-indigo-50/50 p-4 rounded-xl border border-indigo-100 space-y-2">
-          <div class="font-bold text-indigo-900 flex items-center">
-            <i class="fa-solid fa-compass text-indigo-600 mr-1.5"></i> 체력 부담 없는 힐링 스팟
-          </div>
-          <ul class="space-y-1.5 text-slate-700">
-            <li><strong>• 톤보리 리버크루즈:</strong> 도톤보리 강변을 배 타고 30분간 관람 (다리 피로 회복)</li>
-            <li><strong>• 난바 파크스 테라스:</strong> 난바역 직결 옥상정원. 숲속 테라스 카페에서 커피 휴식</li>
-            <li><strong>• 오사카성 공원:</strong> 천수각 내부 입장 없이 호숫가 벤치 산책 코스</li>
-          </ul>
-        </div>
-
-        <!-- Convenient Dining -->
-        <div class="bg-amber-50/50 p-4 rounded-xl border border-amber-100 space-y-2">
-          <div class="font-bold text-amber-900 flex items-center">
-            <i class="fa-solid fa-store text-amber-600 mr-1.5"></i> 대기시간 적고 깔끔한 맛집
-          </div>
-          <ul class="space-y-1.5 text-slate-700">
-            <li><strong>• 스시로(난바점) / 겐로쿠스시:</strong> 태블릿 주문형 회전초밥, 편안한 테이블석</li>
-            <li><strong>• 아지노하구라 / 미즈노:</strong> 셰프가 철판에서 구워주는 명물 오코노미야키</li>
-            <li><strong>• 쿠시카츠 다르마:</strong> 바삭한 모듬 꼬치튀김 & 시원한 생맥주 야식 코스</li>
-          </ul>
+          <a href="https://www.google.com/maps/dir/?api=1&origin=CANDEO+HOTELS+Osaka+Namba&destination=Universal+Studios+Japan&travelmode=driving" target="_blank" class="mt-3 inline-flex items-center justify-center space-x-1 bg-amber-600 hover:bg-amber-700 text-white font-bold py-1.5 px-3 rounded-lg text-center transition">
+            <i class="fa-solid fa-taxi mr-1"></i> USJ 경로 지도 보기
+          </a>
         </div>
       </div>
     </div>
@@ -392,14 +133,16 @@
       <div class="relative pl-6 border-l-2 border-indigo-500 space-y-2">
         <div class="absolute -left-[9px] top-0 w-4 h-4 bg-indigo-500 rounded-full border-4 border-white"></div>
         <div class="flex items-center justify-between">
-          <span class="font-black text-indigo-900 text-sm md:text-base">1일차 | 01/11(월) · 오사카 입국 & 도톤보리 힐링</span>
-          <span class="bg-indigo-100 text-indigo-700 text-xs px-2.5 py-0.5 rounded-full font-bold">도착 & 야경</span>
+          <span class="font-black text-indigo-900 text-sm md:text-base">1일차 | 01/10(일) · 인천 출국, 오사카 입국 & 도톤보리 산책</span>
+          <span class="bg-indigo-100 text-indigo-700 text-xs px-2.5 py-0.5 rounded-full font-bold">입국 & 스파 휴식</span>
         </div>
         <div class="bg-slate-50 p-4 rounded-xl text-xs md:text-sm space-y-2 border border-slate-100 text-slate-700">
-          <p><strong>• 12:00 ~ 13:30 :</strong> 간사이 공항 도착 후 사전 예약한 <strong>라피트 지정석</strong> 탑승 ➔ 이동</p>
-          <p><strong>• 14:00 ~ 15:00 :</strong> 숙소 체크인 및 짐 보관</p>
-          <p><strong>• 15:30 ~ 18:00 :</strong> 도톤보리 글리코상 사진 촬영 & <strong>톤보리 리버크루즈</strong> 탑승 (바람 쐬며 시내 감상)</p>
-          <p><strong>• 18:30 ~ 21:00 :</strong> 초밥(스시로) 또는 쿠시카츠 다르마에서 저녁 식사 & 생맥주 한잔 후 일찍 휴식</p>
+          <p><strong>• 08:00 ~ 10:35 :</strong> 인천공항(ICN) 수속 ➔ 10:35 항공편 탑승 및 출국</p>
+          <p><strong>• 12:25 ~ 13:30 :</strong> 간사이 공항(KIX) 도착 후 입국 수속 & <strong>난카이 라피트 지정석</strong> 탑승</p>
+          <p><strong>• 14:20 ~ 15:30 :</strong> <strong>칸데오 호텔 오사카 난바</strong> 체크인 / 짐 보관 및 휴식</p>
+          <p><strong>• 16:00 ~ 18:30 :</strong> 도톤보리 글리코상 사진 촬영 & <strong>톤보리 리버크루즈</strong> (배 타고 편하게 시내 감상)</p>
+          <p><strong>• 18:30 ~ 21:00 :</strong> <strong>[1일차 추천 저녁]</strong> 호텔 도보 5분 거리 <strong>'모토무라 규카츠 난바점'</strong> 또는 <strong>'아지노하구라(오코노미야키)'</strong>에서 든든한 저녁 식사</p>
+          <p><strong>• 21:30 ~ :</strong> <strong>호텔 최상층 루프탑 스카이스파(대욕장)</strong>에서 온천 피로 회복 후 취침 ♨️</p>
         </div>
       </div>
 
@@ -407,15 +150,17 @@
       <div class="relative pl-6 border-l-2 border-amber-500 space-y-2">
         <div class="absolute -left-[9px] top-0 w-4 h-4 bg-amber-500 rounded-full border-4 border-white"></div>
         <div class="flex items-center justify-between">
-          <span class="font-black text-amber-900 text-sm md:text-base">2일차 | 01/12(화) · USJ 해리포터 위저딩 월드 데이</span>
-          <span class="bg-amber-100 text-amber-800 text-xs px-2.5 py-0.5 rounded-full font-bold">핵심 데이</span>
+          <span class="font-black text-amber-900 text-sm md:text-base">2일차 | 01/11(월) · USJ 해리포터 & 익스프레스 스마트 이용</span>
+          <span class="bg-amber-100 text-amber-800 text-xs px-2.5 py-0.5 rounded-full font-bold">USJ 익스프레스 데이</span>
         </div>
         <div class="bg-slate-50 p-4 rounded-xl text-xs md:text-sm space-y-2 border border-slate-100 text-slate-700">
-          <p><strong>• 07:30 ~ 08:30 :</strong> USJ 출발 (유니버설 시티역 도착)</p>
-          <p><strong>• 08:30 ~ 09:00 :</strong> 1일권(스튜디오 패스) 개장 오픈런 입장 직후 <strong>'위저딩 월드 오브 해리 포터'</strong> 구역으로 직행</p>
-          <p><strong>• 09:00 ~ 12:30 :</strong> 메인 어트랙션 <strong>'포비든 저니'</strong> 탑승, 버터비어 시음, 호그스미드 마을 마법 체험</p>
-          <p><strong>• 13:00 ~ 17:00 :</strong> 미니언 파크 및 워터월드 공연 감상, 파크 내 카페에서 여유 있게 식사 및 휴식</p>
-          <p><strong>• 17:30 ~ 20:00 :</strong> 야간 호그와트 성 야경 촬영 ➔ 시티워크 저녁 식사 후 숙소 복귀</p>
+          <p><strong>• 08:00 ~ 08:50 :</strong> 난바 출발 ➔ 한신/JR 환승 ➔ 유니버설시티역 도착</p>
+          <p><strong>• 09:00 ~ 12:30 :</strong> <strong>[익스프레스 패스]</strong>로 해리포터 '포비든 저니' 대기 없이 빠르게 입장! 버터비어 시음 & 마법 지팡이 체험</p>
+          <p><strong>• 12:30 ~ 14:00 :</strong> 파크 내 레스토랑에서 여유 있는 점심 식사</p>
+          <p><strong>• 14:00 ~ 17:30 :</strong> 익스프레스에 포함된 주요 어트랙션 편안하게 즐기기 & 미니언 파크 감상</p>
+          <p><strong>• 17:30 ~ 19:30 :</strong> 해 질 녘 호그와트 성 야경 촬영 ➔ 숙소 복귀</p>
+          <p><strong>• 20:00 ~ 21:30 :</strong> <strong>[2일차 추천 저녁]</strong> 호텔 바로 인근 <strong>'우라난바 야키토리(토리키즈)'</strong> 또는 <strong>'난바 치보(오코노미야키/야키소바)'</strong>에서 시원한 나생맥주와 함께 회포 풀기 🍻</p>
+          <p><strong>• 21:45 ~ :</strong> 호텔 스카이스파에서 USJ 피로 말끔히 날리기 ♨️</p>
         </div>
       </div>
 
@@ -423,124 +168,111 @@
       <div class="relative pl-6 border-l-2 border-emerald-500 space-y-2">
         <div class="absolute -left-[9px] top-0 w-4 h-4 bg-emerald-500 rounded-full border-4 border-white"></div>
         <div class="flex items-center justify-between">
-          <span class="font-black text-emerald-900 text-sm md:text-base">3일차 | 01/13(수) · 카페 힐링 쇼핑 & 귀국</span>
-          <span class="bg-emerald-100 text-emerald-700 text-xs px-2.5 py-0.5 rounded-full font-bold">복귀</span>
+          <span class="font-black text-emerald-900 text-sm md:text-base">3일차 | 01/12(화) · 라피트로 아침 공항 이동 & 인천 귀국</span>
+          <span class="bg-emerald-100 text-emerald-700 text-xs px-2.5 py-0.5 rounded-full font-bold">귀국</span>
         </div>
         <div class="bg-slate-50 p-4 rounded-xl text-xs md:text-sm space-y-2 border border-slate-100 text-slate-700">
-          <p><strong>• 09:30 ~ 11:30 :</strong> 호텔 체크아웃 ➔ <strong>난바 파크스</strong> 옥상정원 산책 & 테라스 카페 커피 타임</p>
-          <p><strong>• 11:30 ~ 13:00 :</strong> 돈키호테/드럭스토어 간단 기념품 쇼핑 ➔ 명물 오코노미야키 점심 식사</p>
-          <p><strong>• 13:30 ~ 14:10 :</strong> 라피트 탑승 ➔ 간사이 공항 도착 및 면세점 구경 후 한국 귀국</p>
+          <p><strong>• 07:30 ~ 08:15 :</strong> 호텔 체크아웃 ➔ 난카이 난바역 이동</p>
+          <p><strong>• 08:30 ~ 09:15 :</strong> **난카이 라피트 특급열차(08:30경 출발)** 타고 간사이 공항(KIX)으로 직행 (약 38분 소요)</p>
+          <p><strong>• 09:20 ~ 11:45 :</strong> 공항 출국 수속 & 면세점 기념품 쇼핑 (11:45 비행기 탑승)</p>
+          <p><strong>• 13:40 ~ :</strong> 인천국제공항(ICN) 도착 및 귀가</p>
         </div>
       </div>
     </div>
 
-    <!-- Rapi:t Reservation Guide -->
+    <!-- Recommended Spots & Dining Section -->
     <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 space-y-4">
       <h2 class="text-lg font-bold text-slate-900 flex items-center border-b pb-3 border-slate-100">
-        <i class="fa-solid fa-train text-indigo-600 mr-2"></i> 라피트(Rapi:t) 특급열차 사전 예약 가이드
+        <i class="fa-solid fa-utensils text-indigo-600 mr-2"></i> 칸데오 호텔 인근 한국인 평점 최고 맛집 Pick & 구글 경로
       </h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs md:text-sm">
-        <div class="bg-indigo-50/70 p-4 rounded-xl border border-indigo-100 space-y-1">
-          <div class="font-bold text-indigo-900">1. 티켓 사전 구매</div>
-          <p class="text-slate-600">여행 플랫폼(클룩, KKday 등)에서 '난카이 라피트 왕복 교환권' 결제 (1인 약 2만 원대)</p>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs md:text-sm">
+        <!-- Day 1 Dining -->
+        <div class="bg-indigo-50/50 p-4 rounded-xl border border-indigo-100 flex flex-col justify-between space-y-3">
+          <div>
+            <div class="font-bold text-indigo-900 flex items-center mb-1">
+              <i class="fa-solid fa-1 text-indigo-600 mr-1.5"></i> 1일차 저녁: 규카츠 & 철판구이
+            </div>
+            <ul class="space-y-1.5 text-slate-700">
+              <li><strong>• 모토무라 규카츠 (난바점):</strong> 미니 화로에 직접 구워 먹는 부드러운 소고기 튀김.</li>
+              <li><strong>• 아지노하구라 (味乃家):</strong> 도보권 전통 오코노미야키 명가.</li>
+            </ul>
+          </div>
+          <div class="flex flex-wrap gap-2 pt-2 border-t border-indigo-100">
+            <a href="https://www.google.com/maps/search/?api=1&query=Motomura+Gyukatsu+Namba" target="_blank" class="inline-flex items-center space-x-1 bg-indigo-600 text-white text-[11px] font-bold py-1.5 px-3 rounded-lg hover:bg-indigo-700 transition">
+              <i class="fa-solid fa-map-pin mr-1"></i> 규카츠 위치 보기
+            </a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Ajinoya+Osaka" target="_blank" class="inline-flex items-center space-x-1 bg-indigo-600 text-white text-[11px] font-bold py-1.5 px-3 rounded-lg hover:bg-indigo-700 transition">
+              <i class="fa-solid fa-map-pin mr-1"></i> 아지노하구라 위치 보기
+            </a>
+          </div>
         </div>
-        <div class="bg-indigo-50/70 p-4 rounded-xl border border-indigo-100 space-y-1">
-          <div class="font-bold text-indigo-900">2. 모바일 좌석 지정</div>
-          <p class="text-slate-600">발권된 e-티켓 웹링크 접속 ➔ 출발 3일 전~당일 탑승할 열차 시간 및 3인 연달은 좌석 선택</p>
-        </div>
-        <div class="bg-indigo-50/70 p-4 rounded-xl border border-indigo-100 space-y-1">
-          <div class="font-bold text-indigo-900">3. 개찰구 QR 태그</div>
-          <p class="text-slate-600">공항역 난카이 개찰구에서 스마트폰 QR코드를 찍고 전좌석 지정석 승강장에서 탑승</p>
-        </div>
-      </div>
-    </div>
 
-    <!-- Estimated Budget Summary -->
-    <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 space-y-4">
-      <h2 class="text-lg font-bold text-slate-900 flex items-center border-b pb-3 border-slate-100">
-        <i class="fa-solid fa-calculator text-indigo-600 mr-2"></i> Standard 1인당 예상 경비 내역
-      </h2>
-      <div class="overflow-x-auto">
-        <table class="w-full text-left border-collapse text-xs md:text-sm">
-          <thead>
-            <tr class="bg-slate-100 text-slate-700 font-bold border-b border-slate-200">
-              <th class="p-3 rounded-l-lg">항목</th>
-              <th class="p-3">상세 내역</th>
-              <th class="p-3 rounded-r-lg text-right">1인 예상 비용</th>
-            </tr>
-          </thead>
-          <tbody class="divide-y divide-slate-100 text-slate-700">
-            <tr>
-              <td class="p-3 font-semibold text-slate-900">항공권</td>
-              <td class="p-3">김포/인천 ↔ 간사이 왕복 (LCC / 국항사)</td>
-              <td class="p-3 text-right font-medium">약 300,000 ~ 400,000원</td>
-            </tr>
-            <tr>
-              <td class="p-3 font-semibold text-slate-900">숙소 (2박)</td>
-              <td class="p-3">후보 호텔 3인실 N분의 1 분할</td>
-              <td class="p-3 text-right font-medium">약 150,000 ~ 200,000원</td>
-            </tr>
-            <tr>
-              <td class="p-3 font-semibold text-slate-900">USJ 입장권</td>
-              <td class="p-3">1일 스튜디오 패스 (기본권)</td>
-              <td class="p-3 text-right font-medium">약 85,000 ~ 95,000원</td>
-            </tr>
-            <tr>
-              <td class="p-3 font-semibold text-slate-900">교통비</td>
-              <td class="p-3">라피트 왕복 특급권 + 이코카(ICOCA) 충전</td>
-              <td class="p-3 text-right font-medium">약 50,000원</td>
-            </tr>
-            <tr>
-              <td class="p-3 font-semibold text-slate-900">식비 및 기타</td>
-              <td class="p-3">식사 6회, 간식, 커피, 쇼핑 경비</td>
-              <td class="p-3 text-right font-medium">약 150,000 ~ 200,000원</td>
-            </tr>
-            <tr class="bg-indigo-50/60 font-bold text-indigo-950">
-              <td class="p-3 rounded-l-lg">합계</td>
-              <td class="p-3">Standard 3인 맞춤 예산 총액</td>
-              <td class="p-3 rounded-r-lg text-right text-indigo-700">약 735,000 ~ 945,000원 / 1인</td>
-            </tr>
-          </tbody>
-        </table>
+        <!-- Day 2 Dining -->
+        <div class="bg-amber-50/50 p-4 rounded-xl border border-amber-100 flex flex-col justify-between space-y-3">
+          <div>
+            <div class="font-bold text-amber-900 flex items-center mb-1">
+              <i class="fa-solid fa-2 text-amber-600 mr-1.5"></i> 2일차 저녁: 이자카야 & 야키토리
+            </div>
+            <ul class="space-y-1.5 text-slate-700">
+              <li><strong>• 토리키즈 (Torikizoku 난바점):</strong> 균일가 닭꼬치 이자카야, 생맥주와 최고의 궁합.</li>
+              <li><strong>• 도톤보리 치보 (Chibo):</strong> 철판 야키소바와 해물 오코노미야키.</li>
+            </ul>
+          </div>
+          <div class="flex flex-wrap gap-2 pt-2 border-t border-amber-100">
+            <a href="https://www.google.com/maps/search/?api=1&query=Torikizoku+Namba" target="_blank" class="inline-flex items-center space-x-1 bg-amber-600 text-white text-[11px] font-bold py-1.5 px-3 rounded-lg hover:bg-amber-700 transition">
+              <i class="fa-solid fa-map-pin mr-1"></i> 토리키즈 위치 보기
+            </a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Chibo+Dotonbori" target="_blank" class="inline-flex items-center space-x-1 bg-amber-600 text-white text-[11px] font-bold py-1.5 px-3 rounded-lg hover:bg-amber-700 transition">
+              <i class="fa-solid fa-map-pin mr-1"></i> 치보 위치 보기
+            </a>
+          </div>
+        </div>
       </div>
     </div>
 
     <!-- Preparation Checklist -->
     <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 space-y-4">
       <h2 class="text-lg font-bold text-slate-900 flex items-center border-b pb-3 border-slate-100">
-        <i class="fa-solid fa-clipboard-check text-emerald-600 mr-2"></i> 필수 사전 준비물 체크리스트
+        <i class="fa-solid fa-clipboard-check text-emerald-600 mr-2"></i> 필수 사전 준비물 체크리스트 & 예약 링크
       </h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs md:text-sm">
         <label class="flex items-center space-x-2 p-3 bg-slate-50 rounded-xl border border-slate-200 cursor-pointer hover:bg-slate-100 transition">
-          <input type="checkbox" class="w-4 h-4 text-indigo-600 rounded">
-          <span class="text-slate-700">항공권 예매 (간사이 공항 KIX)</span>
+          <input type="checkbox" class="w-4 h-4 text-indigo-600 rounded" checked readonly>
+          <span class="text-slate-700 font-semibold text-emerald-700">인천↔간사이 왕복 항공권 예약 완료</span>
         </label>
         <label class="flex items-center space-x-2 p-3 bg-slate-50 rounded-xl border border-slate-200 cursor-pointer hover:bg-slate-100 transition">
-          <input type="checkbox" class="w-4 h-4 text-indigo-600 rounded">
-          <span class="text-slate-700">숙소 예약 (더블1+싱글1 룸)</span>
+          <input type="checkbox" class="w-4 h-4 text-indigo-600 rounded" checked readonly>
+          <span class="text-slate-700 font-semibold text-emerald-700">칸데오 호텔 오사카 난바 예약 완료</span>
         </label>
         <label class="flex items-center space-x-2 p-3 bg-slate-50 rounded-xl border border-slate-200 cursor-pointer hover:bg-slate-100 transition">
-          <input type="checkbox" class="w-4 h-4 text-indigo-600 rounded">
-          <span class="text-slate-700">USJ 1일 스튜디오 패스 예매 (11월 오픈)</span>
+          <input type="checkbox" class="w-4 h-4 text-indigo-600 rounded" checked readonly>
+          <span class="text-slate-700 font-semibold text-emerald-700">USJ 스튜디오 패스 & 익스프레스 예약 완료</span>
         </label>
         <label class="flex items-center space-x-2 p-3 bg-slate-50 rounded-xl border border-slate-200 cursor-pointer hover:bg-slate-100 transition">
-          <input type="checkbox" class="w-4 h-4 text-indigo-600 rounded">
-          <span class="text-slate-700">라피트 왕복권 구매 및 모바일 좌석 지정</span>
+          <input type="checkbox" class="w-4 h-4 text-indigo-600 rounded" checked readonly>
+          <span class="text-slate-700 font-semibold text-emerald-700">전원 여권 유효기간 이상 없음 확인 완료</span>
         </label>
-        <label class="flex items-center space-x-2 p-3 bg-slate-50 rounded-xl border border-slate-200 cursor-pointer hover:bg-slate-100 transition">
-          <input type="checkbox" class="w-4 h-4 text-indigo-600 rounded">
-          <span class="text-slate-700">이코카(ICOCA) 교통카드 발급/충전</span>
-        </label>
-        <label class="flex items-center space-x-2 p-3 bg-slate-50 rounded-xl border border-slate-200 cursor-pointer hover:bg-slate-100 transition">
-          <input type="checkbox" class="w-4 h-4 text-indigo-600 rounded">
-          <span class="text-slate-700">여권 유효기간 확인 (최소 6개월 이상)</span>
-        </label>
+        <div class="p-3 bg-indigo-50/50 rounded-xl border border-indigo-100 flex flex-col justify-between space-y-2 md:col-span-2">
+          <div class="flex items-center justify-between">
+            <span class="text-slate-800 font-bold"><i class="fa-solid fa-train text-indigo-600 mr-1.5"></i> 난카이 라피트(Rapi:t) 왕복권 예약</span>
+            <span class="text-xs text-indigo-600 font-semibold">사전 할인 예매 추천</span>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <a href="https://www.klook.com/zh-CN/activity/1301-nankai-electric-railway-kansai-airport-osaka/" target="_blank" class="inline-flex items-center space-x-1 bg-indigo-600 text-white text-xs font-bold py-1.5 px-3 rounded-lg hover:bg-indigo-700 transition">
+              <i class="fa-solid fa-ticket mr-1"></i> 클룩(Klook) 라피트 예약 바로가기
+            </a>
+            <a href="https://www.kkday.com/ko/product/12278" target="_blank" class="inline-flex items-center space-x-1 bg-emerald-600 text-white text-xs font-bold py-1.5 px-3 rounded-lg hover:bg-emerald-700 transition">
+              <i class="fa-solid fa-ticket mr-1"></i> KKday 라피트 예약 바로가기
+            </a>
+          </div>
+        </div>
       </div>
     </div>
 
     <!-- Footer -->
     <div class="text-center text-xs text-slate-500 pt-4 pb-8">
-      <p>✨ 2027 오사카 & USJ 힐링 여행계획 가이드 문서가 최종 반영되었습니다.</p>
+      <p>✨ 2027 오사카 & USJ 확정 일정 가이드 문서가 성공적으로 업데이트되었습니다.</p>
     </div>
 
   </div>
